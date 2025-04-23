@@ -259,11 +259,11 @@ body {
 }
 
 [data-parallax-layer="4"] {
-    transform: translateZ(-1000px) scale(0.8);
-    -webkit-transform: translateZ(-1000px) scale(0.8);
-    -moz-transform: translateZ(-1000px) scale(0.8);
-    -ms-transform: translateZ(-1000px) scale(0.8);
-    -o-transform: translateZ(-1000px) scale(0.8);
+    transform: translateZ(-850px) scale(0.8);
+    -webkit-transform: translateZ(-850px) scale(0.8);
+    -moz-transform: translateZ(-850px) scale(0.8);
+    -ms-transform: translateZ(-850px) scale(0.8);
+    -o-transform: translateZ(-850px) scale(0.8);
 }
 
 .content-sec0tion {
