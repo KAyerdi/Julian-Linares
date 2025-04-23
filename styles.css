@@ -199,7 +199,7 @@ body {
 
 /* Estilo específico para la capa del piso (capa 4) */
 [data-parallax-layer="4"] .parallax__layer-img {
-    width: 100vw;
+    width: 150vw;
     left: 50%;
     transform: translateX(-50%);
     height: auto;
@@ -220,11 +220,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    transform: none;
 }
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-100px) scale(2);
+    transform: translateZ(-200px) scale(3);
 }
 
 [data-parallax-layer="2"] {
