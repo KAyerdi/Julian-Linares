@@ -199,7 +199,7 @@ body {
 
 /* Estilo específico para la capa del piso (capa 4) */
 [data-parallax-layer="4"] .parallax__layer-img {
-    width: 150vw;
+    width: 200vw;
     left: 50%;
     transform: translateX(-50%);
     height: auto;
@@ -243,19 +243,19 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-5000px) scale(1.2);
-    -webkit-transform: translateZ(-5000px) scale(1.2);
-    -moz-transform: translateZ(-5000px) scale(1.2);
-    -ms-transform: translateZ(-5000px) scale(1.2);
-    -o-transform: translateZ(-5000px) scale(1.2);
+    transform: translateZ(-7000px) scale(1);
+    -webkit-transform: translateZ(-7000px) scale(1);
+    -moz-transform: translateZ(-7000px) scale(1);
+    -ms-transform: translateZ(-7000px) scale(1);
+    -o-transform: translateZ(-7000px) scale(1);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-4000px) scale(1.2);
-    -webkit-transform: translateZ(-4000px) scale(1.2);
-    -moz-transform: translateZ(-4000px) scale(1.2);
-    -ms-transform: translateZ(-4000px) scale(1.2);
-    -o-transform: translateZ(-4000px) scale(1.2);
+    transform: translateZ(-5500px) scale(1);
+    -webkit-transform: translateZ(-5500px) scale(1);
+    -moz-transform: translateZ(-5500px) scale(1);
+    -ms-transform: translateZ(-5500px) scale(1);
+    -o-transform: translateZ(-5500px) scale(1);
 }
 
 [data-parallax-layer="3"] {
@@ -263,7 +263,11 @@ body {
 }
 
 [data-parallax-layer="4"] {
-    transform: translateZ(50px) scale(0.75);
+    transform: translateZ(-2000px) scale(0.5);
+    -webkit-transform: translateZ(-2000px) scale(0.5);
+    -moz-transform: translateZ(-2000px) scale(0.5);
+    -ms-transform: translateZ(-2000px) scale(0.5);
+    -o-transform: translateZ(-2000px) scale(0.5);
 }
 
 .content-section {
