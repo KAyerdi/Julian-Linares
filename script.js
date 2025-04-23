@@ -34,6 +34,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    // Animación del título de la historia
+    const tituloHistoria = document.querySelector('.historia__titulo');
+    gsap.to(tituloHistoria, {
+        scrollTrigger: {
+            trigger: tituloHistoria,
+            start: "top 80%",
+            toggleClass: "visible"
+        }
+    });
+
     // Animación de los párrafos
     const parrafos = document.querySelectorAll('.historia__parrafo');
     parrafos.forEach((parrafo, index) => {
