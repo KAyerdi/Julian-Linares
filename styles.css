@@ -243,11 +243,11 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-800px) scale(3);
+    transform: translateZ(-1200px) scale(2);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-600px) scale(2.5);
+    transform: translateZ(-900px) scale(2);
 }
 
 [data-parallax-layer="3"] {
