@@ -55,6 +55,18 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+
+    // Animación de las secciones de la historia
+    const secciones = document.querySelectorAll('.historia__seccion');
+    secciones.forEach((seccion) => {
+        gsap.to(seccion, {
+            scrollTrigger: {
+                trigger: seccion,
+                start: "top 80%",
+                toggleClass: "visible"
+            }
+        });
+    });
 });
 
 /* Lenis */
