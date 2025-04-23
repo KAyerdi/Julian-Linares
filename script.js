@@ -33,6 +33,18 @@ document.addEventListener("DOMContentLoaded", () => {
             );
         });
     });
+
+    // Animación de los párrafos
+    const parrafos = document.querySelectorAll('.historia__parrafo');
+    parrafos.forEach((parrafo, index) => {
+        gsap.to(parrafo, {
+            scrollTrigger: {
+                trigger: parrafo,
+                start: "top 80%",
+                toggleClass: "visible"
+            }
+        });
+    });
 });
 
 /* Lenis */
