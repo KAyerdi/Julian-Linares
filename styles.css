@@ -79,6 +79,8 @@ body {
     position: absolute;
     top: -17.5%;
     left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax__layer-img.is-third {

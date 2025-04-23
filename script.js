@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         
         const layers = [
-            { layer: "1", yPercent: 70 },
-            { layer: "2", yPercent: 55 },
-            { layer: "3", yPercent: 40 },
-            { layer: "4", yPercent: 10 }
+            { layer: "1", yPercent: 30 },
+            { layer: "2", yPercent: 45 },
+            { layer: "3", yPercent: 60 },
+            { layer: "4", yPercent: 80 }
         ];
         
         layers.forEach((layerObj, idx) => {
