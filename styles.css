@@ -87,8 +87,9 @@ body {
     max-width: none;
     height: 120%;
     position: absolute;
-    top: 0;
+    top: -10%;
     left: 0;
+    min-height: 100vh;
 }
 
 .parallax__placeholder {
@@ -112,6 +113,7 @@ body {
     top: 0;
     left: 0;
     overflow: hidden;
+    min-height: 100vh;
 }
 
 .cover-copy {
@@ -185,9 +187,9 @@ body {
     object-fit: cover;
     width: 100%;
     max-width: none;
-    height: 117.5%;
+    height: 120%;
     position: absolute;
-    top: -17.5%;
+    top: -10%;
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +202,7 @@ body {
 /* Estilo específico para la capa del cielo (capa 1) */
 [data-parallax-layer="1"] .parallax__layer-img {
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
     object-position: center top;
     background-repeat: no-repeat;
@@ -216,13 +218,13 @@ body {
 /* Estilo específico para la capa de la montaña (capa 2) */
 [data-parallax-layer="2"] .parallax__layer-img {
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 0;
+    top: -10%;
     left: 0;
     transform: none;
     image-rendering: -webkit-optimize-contrast;
@@ -263,11 +265,11 @@ body {
     width: 120vw;
     left: 50%;
     transform: translateX(-50%);
-    height: auto;
+    height: 120%;
     min-height: 100%;
     object-fit: cover;
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
 }
 
 .content-section {
