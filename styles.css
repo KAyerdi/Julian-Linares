@@ -243,11 +243,19 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-1500px) scale(1.8);
+    transform: translateZ(-2000px) scale(1.8);
+    -webkit-transform: translateZ(-2000px) scale(1.8);
+    -moz-transform: translateZ(-2000px) scale(1.8);
+    -ms-transform: translateZ(-2000px) scale(1.8);
+    -o-transform: translateZ(-2000px) scale(1.8);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-1200px) scale(1.8);
+    transform: translateZ(-1500px) scale(1.8);
+    -webkit-transform: translateZ(-1500px) scale(1.8);
+    -moz-transform: translateZ(-1500px) scale(1.8);
+    -ms-transform: translateZ(-1500px) scale(1.8);
+    -o-transform: translateZ(-1500px) scale(1.8);
 }
 
 [data-parallax-layer="3"] {
