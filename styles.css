@@ -217,13 +217,14 @@ body {
 .historia__contenido {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'PP Neue Corp Wide', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.8;
+    font-size: 1.1em;
 }
 
 .historia__titulo {
     font-family: 'PP Neue Corp Wide', sans-serif;
-    font-size: 11vw;
+    font-size: 8vw;
     font-weight: 800;
     text-align: center;
     margin-bottom: 1.5em;
@@ -236,17 +237,19 @@ body {
 
 .historia__parrafo {
     margin-bottom: 2em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease, transform 0.6s ease;
+    letter-spacing: 0.3px;
 }
 
 .historia__parrafo--destacado {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 800;
     text-align: center;
     margin-top: 2em;
+    font-family: 'PP Neue Corp Wide', sans-serif;
 }
 
 .historia__parrafo.visible {
