@@ -199,7 +199,7 @@ body {
 
 /* Estilo específico para la capa del piso (capa 4) */
 [data-parallax-layer="4"] .parallax__layer-img {
-    width: 200vw;
+    width: 150vw;
     left: 50%;
     transform: translateX(-50%);
     height: auto;
@@ -243,11 +243,11 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-150px) scale(2.5);
+    transform: translateZ(-500px) scale(6);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-50px) scale(1.5);
+    transform: translateZ(-300px) scale(4);
 }
 
 [data-parallax-layer="3"] {
@@ -255,7 +255,7 @@ body {
 }
 
 [data-parallax-layer="4"] {
-    transform: translateZ(200px) scale(0.3);
+    transform: translateZ(50px) scale(0.75);
 }
 
 .content-section {
