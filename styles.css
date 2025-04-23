@@ -239,11 +239,11 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-7000px) scale(1);
-    -webkit-transform: translateZ(-7000px) scale(1);
-    -moz-transform: translateZ(-7000px) scale(1);
-    -ms-transform: translateZ(-7000px) scale(1);
-    -o-transform: translateZ(-7000px) scale(1);
+    transform: translateZ(-9000px) scale(1);
+    -webkit-transform: translateZ(-9000px) scale(1);
+    -moz-transform: translateZ(-9000px) scale(1);
+    -ms-transform: translateZ(-9000px) scale(1);
+    -o-transform: translateZ(-9000px) scale(1);
 }
 
 [data-parallax-layer="2"] {
