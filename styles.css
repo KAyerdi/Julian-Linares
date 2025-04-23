@@ -197,9 +197,26 @@ body {
     top: -20%;
 }
 
+/* Ajustes para las capas parallax */
+[data-parallax-layer="1"] {
+    transform: translateZ(-100px) scale(2);
+}
+
+[data-parallax-layer="2"] {
+    transform: translateZ(-50px) scale(1.5);
+}
+
+[data-parallax-layer="3"] {
+    transform: translateZ(0);
+}
+
+[data-parallax-layer="4"] {
+    transform: translateZ(50px) scale(0.75);
+}
+
 /* Estilo específico para la capa del piso (capa 4) */
 [data-parallax-layer="4"] .parallax__layer-img {
-    width: 150vw;
+    width: 100vw;
     left: 50%;
     transform: translateX(-50%);
     height: auto;
@@ -209,7 +226,7 @@ body {
     bottom: 0;
 }
 
-/* Estilo específico para la capa del cielo (capa 1) */
+/* Estilo específico para la capa de la montaña (capa 1) */
 [data-parallax-layer="1"] .parallax__layer-img {
     width: 100%;
     height: 100%;
@@ -220,12 +237,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    transform: none;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
 }
 
-/* Estilo específico para la capa de la montaña (capa 2) */
+/* Estilo específico para la capa del cielo (capa 2) */
 [data-parallax-layer="2"] .parallax__layer-img {
     width: 100%;
     height: 100%;
@@ -239,23 +253,6 @@ body {
     transform: none;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
-}
-
-/* Ajustes para las capas parallax */
-[data-parallax-layer="1"] {
-    transform: translateZ(-500px) scale(6);
-}
-
-[data-parallax-layer="2"] {
-    transform: translateZ(-300px) scale(4);
-}
-
-[data-parallax-layer="3"] {
-    transform: translateZ(0);
-}
-
-[data-parallax-layer="4"] {
-    transform: translateZ(50px) scale(0.75);
 }
 
 .content-section {
