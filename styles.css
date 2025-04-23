@@ -209,8 +209,22 @@ body {
     bottom: 0;
 }
 
-/* Estilo específico para la capa de la montaña (capa 1) */
+/* Estilo específico para la capa del cielo (capa 1) */
 [data-parallax-layer="1"] .parallax__layer-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: none;
+}
+
+/* Estilo específico para la capa de la montaña (capa 2) */
+[data-parallax-layer="2"] .parallax__layer-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -225,11 +239,11 @@ body {
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-200px) scale(3);
+    transform: translateZ(-300px) scale(4);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-50px) scale(1.5);
+    transform: translateZ(-150px) scale(2.5);
 }
 
 [data-parallax-layer="3"] {
