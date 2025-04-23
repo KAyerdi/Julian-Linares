@@ -221,6 +221,8 @@ body {
     top: 0;
     left: 0;
     transform: none;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 /* Estilo específico para la capa de la montaña (capa 2) */
@@ -235,15 +237,17 @@ body {
     top: 0;
     left: 0;
     transform: none;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 /* Ajustes para las capas parallax */
 [data-parallax-layer="1"] {
-    transform: translateZ(-300px) scale(4);
+    transform: translateZ(-500px) scale(6);
 }
 
 [data-parallax-layer="2"] {
-    transform: translateZ(-150px) scale(2.5);
+    transform: translateZ(-300px) scale(4);
 }
 
 [data-parallax-layer="3"] {
