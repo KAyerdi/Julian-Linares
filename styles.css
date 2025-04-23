@@ -138,17 +138,18 @@ body {
 }
 
 .parallax__content {
-    padding: var(--section-padding) var(--container-padding);
+    padding: 0 var(--container-padding) 40px;
     justify-content: center;
     align-items: center;
-    min-height: 100svh;
+    min-height: auto;
     display: flex;
     position: relative;
 }
 
 .osmo-icon-svg {
-    width: 8em;
+    width: 5em;
     position: relative;
+    margin-top: -20px;
 }
 
 .parallax__radial-gradient {
@@ -210,7 +211,7 @@ body {
 
 .historia {
     background-color: var(--color-neutral-900);
-    padding: var(--section-padding) var(--container-padding);
+    padding: var(--section-padding) var(--container-padding) 20px;
     color: var(--color-light);
     position: relative;
     z-index: 5;
