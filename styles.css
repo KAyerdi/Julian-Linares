@@ -234,7 +234,7 @@ body {
     min-height: 100%;
     object-fit: cover;
     position: absolute;
-    bottom: 100px;
+    bottom: 0px;
 }
 
 .content-sec0tion {
